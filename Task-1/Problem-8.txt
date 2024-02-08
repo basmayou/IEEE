@@ -1,0 +1,16 @@
+def is_perfect_number(number):
+  divisors_sum = 1  
+  for i in range(2, int(number**0.5) + 1): 
+      if number % i == 0:
+          divisors_sum += i 
+          if i * i != number:  
+              divisors_sum += number // i
+
+  return divisors_sum == number
+
+number = int(input())
+
+if is_perfect_number(number):
+  print(f"{number} is a perfect number.")
+else:
+  print(f"{number} is not a perfect number.")

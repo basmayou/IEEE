@@ -1,0 +1,10 @@
+def factorial(n):
+  if n == 0:
+    return 1
+  else:
+    return n * factorial(n - 1)
+
+number = int(input())
+result = " * ".join(str(i) for i in range(number, 0, -1))
+
+print(f"The factorial of {number} is {factorial(number)} ({result})")
