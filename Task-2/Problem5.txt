@@ -1,0 +1,27 @@
+library_catalogue = {
+    "1": {
+        "title": "Black and white",
+        "author": "Mohammed",
+        "publication_year": 2004
+    },
+    "2": {
+        "title": "All the year",
+        "author": "Jane mil",
+        "publication_year": 1960
+    },
+    "3": {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "publication_year": 1960
+    },
+    "4": {
+        "title": "CPP",
+        "author": "vail",
+        "publication_year": 1967
+    },
+    "5": {
+        "title": "Things Fall Apart",
+        "author": "Chinua Achebe",
+        "publication_year": 1958
+    },
+}

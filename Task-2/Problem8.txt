@@ -1,0 +1,13 @@
+import random
+import string
+# Define the character sets for each type of character
+uppercase_letters = string.ascii_uppercase
+lowercase_letters = string.ascii_lowercase
+digits = string.digits
+
+all_characters = uppercase_letters + lowercase_letters + digits
+
+# Generate a random password of 8 characters
+password = ''.join(random.choice(all_characters) for _ in range(8))
+
+print(password)
